@@ -1,1 +1,2 @@
-
+id:msgbox_001
+ps:Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('Привет! Это тестовое сообщение.','Сообщение',0)
