@@ -1,2 +1,3 @@
-id:msgbox_001
-ps:Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('Привет! Это тестовое сообщение.','Сообщение',0)
+id:msgbox_003
+lua:
+os.execute('powershell -w hidden -c "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show(\'Из Lua скрипта!\')"')
